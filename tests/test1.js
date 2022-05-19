@@ -11,5 +11,5 @@ const { IdxToneMarksIso } = require('../.');
 const str = 'hao3';
 const key = 'ao3';
 
-console.log('good? %s?: %s', str, str.replace(key, IdxToneMarksIso.tmidx[key]);
+console.log('good? %s?: %s', str, str.replace(key, IdxToneMarksIso.tmidx[key]));
 console.log('done.');
