@@ -8,5 +8,8 @@
  */
 const { IdxToneMarksIso } = require('../.');
 
-console.log('good?: %s', IdxToneMarksIso.tmidx['hao3']);
+const str = 'hao3';
+const key = 'ao3';
+
+console.log('good? %s?: %s', str, str.replace(key, IdxToneMarksIso.tmidx[key]);
 console.log('done.');
